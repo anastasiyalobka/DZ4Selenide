@@ -12,7 +12,7 @@ import static com.codeborne.selenide.Selenide.*;
 public class SearchSoftAssertions {
     @Test
 
-    void SuccessSearchJUnit5(){
+    void successSearchJUnit5(){
         open("https://github.com/selenide/selenide/");
         $(byText("Wiki")).click();
         $(".js-wiki-more-pages-link").click();
